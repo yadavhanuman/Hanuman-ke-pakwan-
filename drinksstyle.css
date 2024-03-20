@@ -1,0 +1,136 @@
+/* CAROUSAL STYLE STARTS HERE */
+body{
+    background-color: rgb(248, 231, 200);
+}
+
+.drinks{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: -30px;
+    left: 30px;
+    
+}
+
+.alldrinks{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 440px;
+    align-items: center;
+    position: relative;
+    left: 570px;
+    background-color: rgb(186, 186, 186);
+}
+
+.drinkslogo{
+    position: relative;
+    left: 50px;
+    height: 100px;
+}
+
+#carousel{
+    width: 1600px;
+    position: relative;
+    top: 0px;
+    left: 10%;
+    margin-bottom: 50px;
+  }
+  
+  .item{
+    height: 210px;
+    width: 210px;
+    align-items: center;
+    position: relative;
+    top: -145px;
+  }
+  
+  .itemtxt{
+    position: relative;
+    left: 33px;
+    top: 295px;
+  }
+  #btn{
+    border-radius: 50px;
+    border: 0.2px solid black;
+    position: relative;
+    left: 45px;
+    top: 240px;
+    width: 120px;
+    height: 30px;
+  }
+  #btn:hover{
+    background-color: #dad8d8;
+  }
+  .drinkimg{
+    border-radius: 50%;
+    height: 160px;
+  }
+  
+  .drinkimg1{
+    border-radius: 50%;
+    height: 160px;
+    
+  }
+  .drinkimg2{
+    border-radius: 50%;
+    height: 160px;
+    
+  }
+  .drinkimg3{
+    border-radius: 50%;
+    height: 160px;
+  }
+  .drinkimg4{
+    border-radius: 50%;
+    height: 160px;
+  }
+  .drinkimg5{
+    border-radius: 50%;
+    height: 160px;
+  }
+  .drinkimg6{
+    border-radius: 50%;
+    height: 160px;
+  }
+  .drinkimg7{
+    border-radius: 50%;
+    height: 160px;
+  }
+  .drinkimg8{
+    border-radius: 50%;
+    height: 160px;
+  }
+  .drinkimg9{
+    border-radius: 50%;
+    height: 160px;
+  }
+  .drinkimg01{
+    border-radius: 50%;
+    height: 160px;
+  }
+  .drinkimg02{
+    border-radius: 50%;
+    height: 160px;
+  }
+  .drinkimg03{
+    border-radius: 50%;
+    height: 160px;
+  }
+  .drinkimg04{
+    border-radius: 50%;
+    height: 160px;
+  }
+  .drinkimg05{
+    border-radius: 50%;
+    height: 160px;
+  }
+  .drinkimg06{
+    border-radius: 50%;
+    height: 160px;
+  }
+  .drinkimg07{
+    border-radius: 50%;
+    height: 160px;
+  }
+  
+  

@@ -1,0 +1,45 @@
+.viewmenu{
+  padding: 1em 2em;
+  border: 2.5px solid #ccc;
+  background: #111;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1;
+  color: #ccc;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.viewmenu:hover{
+    background: rgb(113,255,113);
+    color: #000000;
+
+}
+.viewmenu::before,.viewmenu::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s;
+    background-color: yellow;
+    z-index: -1;
+}
+.viewmenu::before{
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    -webkit-box-direction: polygon(0% 0%,75% 0%, 100% 50%,75% 100%,0% 100%);
+    clip-path:polygon(0% 0%,75% 0%, 100% 50%,75% 100%,0% 100%);
+    clip-path: polygon(0% 0%,75% 0%, 100% 50%,75% 100%,0% 100%);
+}
+.viewmenu::after{
+    bottom: 0;
+    right: 0;
+    width: 0;
+    -webkit-clip-path:polygon(25% 0%,100% 1%,100% 100%,25% 100%,0% 50%);
+    clip-path: polygon(25% 0%,100% 1%,100% 100%,25% 100%,0% 50%);
+}
+.viewmenu:hover::before,.viewmenu:hover::after{
+    width: 40%;
+}

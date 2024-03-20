@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#cart-items {
+  margin-top: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.cart-item span {
+  margin-right: 10px;
+}
+
+.cart-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+#place-order-btn {
+  display: block;
+  margin: 20px auto;
+}
+
+
+  </style>
+</head>
+<body>
+  <h1>Shopping Cart</h1>
+  <div id="cart-items">
+    <!-- Cart items will be dynamically added here -->
+  </div>
+  <button id="place-order-btn">Place Order</button>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script >
+    $(document).ready(function() {
+  const cartItemsContainer = $('#cart-items');
+  const placeOrderBtn = $('#place-order-btn');
+  const cartItems = [];
+
+  function updateCart() {
+    cartItemsContainer.empty();
+
+    cartItems.forEach(function(item) {
+      const { name, price, quantity, image } = item;
+      const itemElement = $('<div>').addClass('cart-item');
+
+      const imageElement = $('<img>').attr('src', image);
+      itemElement.append(imageElement);
+
+      const nameElement = $('<span>').text(name);
+      itemElement.append(nameElement);
+
+      const quantityElement = $('<span>').text(`Quantity: ${quantity}`);
+      itemElement.append(quantityElement);
+
+      const priceElement = $('<span>').text(`Price: $${price.toFixed(2)}`);
+      itemElement.append(priceElement);
+
+      cartItemsContainer.append(itemElement);
+    });
+  }
+
+  function calculateTotal() {
+    let total = 0;
+
+    cartItems.forEach(function(item) {
+      const { price, quantity } = item;
+      total += price * quantity;
+    });
+
+    return total.toFixed(2);
+  }
+
+  function placeOrder() {
+    const total = calculateTotal();
+
+    // Perform order placement logic here
+    // You can make an API call or perform other actions
+
+    setTimeout(function() {
+      alert('Processing order...');
+    }, 500);
+
+    setTimeout(function() {
+      alert(`Order placed! Total amount: $${total}`);
+      cartItems.length = 0; // Clear the cart items array
+      updateCart();
+
+      // Redirect to the next page
+      window.location.href = 'thankyou.html';
+    }, 1500);
+  }
+
+  placeOrderBtn.on('click', placeOrder);
+
+  // Example usage: adding items to the cart
+  const product1 = {
+    name: 'Apple',
+    price: 1.99,
+    quantity: 2,
+    image: 'apple.jpg'
+  };
+  const product2 = {
+    name: 'Banana',
+    price: 0.99,
+    quantity: 3,
+    image: 'banana.jpg'
+  };
+
+  cartItems.push(product1, product2);
+  updateCart();
+});
+
+
+  </script>
+</body>
+</html>

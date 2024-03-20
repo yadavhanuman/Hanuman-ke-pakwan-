@@ -1,0 +1,217 @@
+body {
+    /* height: 100vh;
+    width: 100vw; */
+  
+    /* margin: 0rem;
+    overflow: hidden; */
+    overflow-x: hidden;
+  }
+  .imageHover::after{
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: black;
+z-index: 1;
+opacity: 0.6;
+  }
+  #image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 1300px;
+    transform: translate(0%, -50%); 
+    user-select: none; /* -- Prevent image highlighting -- */
+    background-color: black;
+  }
+  
+  #image-track > .image {
+    width: 40vmin;
+    height: 48vmin;
+    object-fit: cover;
+    object-position: 100% center;
+  }
+  
+  /* -- YouTube Link Styles -- */
+  
+  body.menu-toggled > .meta-link > span {
+    color: rgb(30, 30, 30);
+  }
+  
+  #source-link {
+    bottom: 60px;
+  }
+  
+  #source-link > i {
+    color: rgb(94, 106, 210);
+  }
+  
+  #yt-link > i {
+    color: rgb(239, 83, 80);
+  }
+  
+  .meta-link {
+    align-items: center;
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    bottom: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;  
+    display: inline-flex;
+    gap: 5px;
+    left: 10px;
+    padding: 10px 20px;
+    position: fixed;
+    text-decoration: none;
+    transition: background-color 400ms, border-color 400ms;
+    z-index: 10000;
+  }
+  
+  .meta-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .meta-link > i, .meta-link > span {
+    height: 20px;
+    line-height: 20px;
+  }
+  
+  .meta-link > span {
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+  }
+  h3{
+      color: aliceblue;
+  }
+
+
+  /* footer */
+  footer {
+    background-color: #fbfcfc;
+    padding: 40px 20px;
+    color: #787575;
+    font-family: Arial, sans-serif;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+  }
+  
+  .footer-section {
+    margin-bottom: 40px;
+  }
+  
+  .footer-section h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #191313;
+    border-bottom: 2px solid #9e9f9ff6;
+    padding-bottom: 5px;
+  }
+  
+  .footer-section p {
+    margin-bottom: 10px;
+    color: #777;
+  }
+  
+  .social-media-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-media-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media-links a {
+    color: #053589;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media-links a:hover {
+    color: #e74c3c;
+  }
+  
+  .customer-reviews {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .customer-reviews li {
+    margin-bottom: 10px;
+    color: #a89f9f;
+    font-style: italic;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .newsletter-form input[type="email"] {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #7e0c0c;
+  }
+  
+  .newsletter-form button {
+    width: 30%;
+    padding: 5px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #541b15;
+  }
+  
+  .footer-bottom {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #5c3d3d;
+  }
+  .slide2{
+    border: 1px solid rgb(18, 12, 12);
+    height: 800px;
+    background-color: #020000;
+  }
+  .slide2content{
+    color: white;
+    margin-left: 500px;
+  }
+  .slide2content h6{
+    margin-left: 90px;
+    margin-top: 20px;
+    text-shadow: 3px 3px 5px 4px rgb(255, 255, 255);
+    
+  }
+  .slide2content p{
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .slide2content h1{
+    /* margin-left: 40px; */
+    margin-top: 50px;
+    position: relative;
+    right: 290px;
+  }
+  .profile{
+    border:1px solid red;
+    border-radius:5px;
+    
+   }

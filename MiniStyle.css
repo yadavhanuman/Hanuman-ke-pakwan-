@@ -1,0 +1,491 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .minitiffin{
+    position: relative;
+    height: 45px;
+    top: 10px;
+    right: 10px;
+    filter: invert();
+  }
+  
+  .largetiffin{
+    position: relative;
+    height: 45px;
+    top: 10px;
+    right: 10px;
+    filter: invert();
+  }
+  
+  .sahitiffin{
+    position: relative;
+    height: 50px;
+    top: 10px;
+    right: 0px;
+    
+  }
+
+  .drink1{
+    position: relative;
+    height: 45px;
+    top: 10px;
+    right: 10px;
+    filter: invert();
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    background-color: #333;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #555;
+  }
+
+  .uncle1{
+    position: relative;
+    height: 160px;
+    top: -132px;
+    left: 155px;
+  }
+
+  .tastymenu{
+    position: relative;
+    top: -185px; left: 190px;
+    font-size: 20px;
+  }
+  .largehead{
+    position: relative;
+    left: 45px;
+    top: -140px;
+    border: 2px solid black;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .largeheadimg{
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: -150px;
+  }
+
+/* CART STYLE STARTS HERE */
+.cart{
+  position: relative;
+  left: 95%;
+  top: -58px;
+  height: 50px;
+  filter: invert();
+}
+#cart{
+  position: relative;
+  left: 1475px;
+  top: -90px;
+  background-color: white;
+  font-size: 30px;
+  color: black;
+  border-radius: 50%
+}
+
+
+
+/* TIFFIN MENU STYLE STARTS HERE */
+.cont{
+  display: flex;
+  position: relative;
+  top: -140px;
+  margin-bottom: 60px;
+
+}
+
+.cont1{
+  display: flex;
+  position: relative;
+  top: 60px;
+
+}
+
+/* MONDAY FOOD STYLE */
+  .mondayheading{
+    margin-top: -60px;
+    position:relative;
+    left: 60px;
+    top: 35px;
+    height: 5px;
+    text-align: center;
+  }
+
+  .mondayfood{
+    border: 2px solid;
+    height: 420px;
+    width: 140px;
+    position: relative;
+    left: -40px;
+    top: 20px;
+    border-radius: 40px; 
+  }
+
+  .mbreakfastimg{
+    position: relative;
+    height: 90px;
+    top: 10px;
+    left: 25px;
+  }
+  .mbreakfasttxt{
+    position: relative;
+    top: -10px; left: 0px;
+    text-align: center;
+  }
+
+  .mlunchimg{
+    position: relative;
+    height: 80px;
+    top: -25px;
+    left: 28px;
+  }
+  .mlunchtxt{
+    position: relative;
+    top: -49px; left: 0px;
+    text-align: center;
+  }
+
+  .mdinnerimg{
+    position: relative;
+    height: 80px; width: 95px;
+    position: relative;
+    top: -65px; left: 22px;
+    border-radius: 50px;
+  }
+  .mdinnertxt{
+    position: relative;
+    top: -90px; left: 0px;
+    text-align: center;
+  }
+
+
+/* TUESDAY FOOD SECTION STYLE */
+.tuesdayheading{
+  margin-top: -60px;
+  position:relative;
+  left: 45px;
+  top: 35px;
+  height: 5px;
+  text-align: center;
+}
+
+.tuesdayfood{
+  border: 2px solid;
+    height: 420px;
+    width: 140px;
+    position: relative;
+    left: -60px;
+    top: 20px;
+    border-radius: 40px; 
+}
+
+.tbreakfastimg{
+  position: relative;
+  height: 90px; width: 100px;
+  top: 10px;
+  left: 20px;
+  border-radius: 50px;
+}
+.tbreakfasttxt{
+  position: relative;
+  top: -10px; left: 0px;
+  text-align: center;
+}
+
+.tlunchimg{
+  position: relative;
+  height: 80px; width: 90px;
+  top: -25px;
+  left: 25px;
+}
+.tlunchtxt{
+  position: relative;
+  top: -49px; left: 0px;
+  text-align: center;
+}
+
+.tdinnerimg{
+  position: relative;
+  height: 110px; width: 110px;
+  position: relative;
+  top: -75px; left: 12px;
+  border-radius: 50px;
+}
+.tdinnertxt{
+  position: relative;
+  top: -110px; left: 0px;
+  text-align: center;
+}
+
+
+/* WEDNESDAY FOOD SECTION STYLE */
+.wednesdayheading{
+  margin-top: -60px;
+  position:relative;
+  left: 10px;
+  top: 35px;
+  height: 5px;
+  text-align: center;
+}
+
+.wednesdayfood{
+  border: 2px solid;
+  height: 420px;
+  width: 140px;
+  position: relative;
+  left: -110px;
+  top: 20px;
+  border-radius: 40px;
+}
+
+.wbreakfastimg{
+  position: relative;
+  height: 90px; width: 110px;
+  top: 10px;
+  left: 15px;
+  border-radius: 50px;
+}
+.wbreakfasttxt{
+  position: relative;
+  top: -10px; left: 0px;
+  text-align: center;
+}
+
+.wlunchimg{
+  position: relative;
+  height: 100px; width: 110px;
+  top: -35px;
+  left: 15px;
+}
+.wlunchtxt{
+  position: relative;
+  top: -62px; left: 0px;
+  text-align: center;
+}
+
+.wdinnerimg{
+  position: relative;
+  height: 85px; width: 95px;
+  position: relative;
+  top: -80px; left: 23px;
+  border-radius: 50px;
+}
+.wdinnertxt{
+  position: relative;
+  top: -104px; left: 0px;
+  text-align: center;
+}
+
+/* THURSDAY FOOD SECTION STYLE */
+.thursdayheading{
+  margin-top: -60px;
+  position:relative;
+  left: 70px;
+  height: 5px;
+  text-align: center;
+}
+
+.thursdayfood{
+  border: 2px solid;
+    height: 420px;
+    width: 140px;
+    position: relative;
+    left: -40px;
+    top: 20px;
+    border-radius: 40px;
+}
+
+/* FRIDAY FOOD SECTION STYLE */
+.fridayheading{
+  margin-top: -60px;
+  position:relative;
+  left: 70px;
+  height: 5px;
+  text-align: center;
+}
+
+.fridayfood{
+  border: 2px solid;
+    height: 420px;
+    width: 140px;
+    position: relative;
+    left: -40px;
+    top: 20px;
+    border-radius: 40px;
+}
+
+/* SATURDAY FOOD SECTION STYLE */
+.saturdayheading{
+  margin-top: -60px;
+  position:relative;
+  left: 70px;
+  height: 5px;
+  text-align: center;
+}
+
+.saturdayfood{
+  border: 2px solid;
+    height: 420px;
+    width: 140px;
+    position: relative;
+    left: -40px;
+    top: 20px;
+    border-radius: 40px;
+}
+
+/* SUNDAY FOOD SECTION STYLE */
+.sundayheading{
+  position:relative;
+  left: -495px;
+  top: -150px;
+  height: 5px;
+  text-align: center;
+}
+
+.sundayfood{
+  border: 2px solid;
+  display: flex;
+    height: 140px;
+    width: 480px;
+    position: relative;
+    left: 60px;
+    top: -135px;
+    border-radius: 40px;
+}
+
+.sbreakfastimg{
+  position: relative;
+  height: 90px; width: 110px;
+  top: 10px;
+  left: 15px;
+  border-radius: 50px;
+}
+.sbreakfasttxt{
+  position: relative;
+  top: -10px; left: 15px;
+  text-align: center;
+}
+
+.slunchimg{
+  position: relative;
+  height: 90px; width: 100px;
+  top: 10px;
+  left: 60px;
+}
+.slunchtxt{
+  position: relative;
+  top: -10px; left: 35px;
+  text-align: center;
+}
+
+.sdinnerimg{
+  position: relative;
+  height: 85px; width: 95px;
+  position: relative;
+  top: 10px; left: 80px;
+  border-radius: 50px;
+}
+.sdinnertxt{
+  position: relative;
+  top: -10px; left: 50px;
+  text-align: center;
+}
+
+#soya{
+  position: relative;
+  height: 80px;
+  width: 90px;
+  top: -60px;
+  left: 25px;
+}
+#soyatxt{
+  position: relative;
+  top: -75px;
+}
+.btn {
+  border-radius: 50px;
+  border: 0.2px solid black;
+  position: relative;
+  left: 10px;
+  /* top: 240px; */
+  bottom: 100px;
+ 
+  width: 120px;
+  height: 30px;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 6px 6px 12px #c5c5c5,
+  -6px -6px -12px #ffffff;
+}
+#btn2{
+  position: relative;
+  left: 10px;
+  /* top: 240px; */
+  bottom: 115px;
+}
+#btn3{
+  position: relative;
+  left: 10px;
+  /* top: 240px; */
+  bottom: 125px;
+}
+#btn4{
+  position: relative;
+  left: 10px;
+  /* top: 240px; */
+  bottom: 85px;
+}
+#btn5{
+  position: relative;
+  left: 10px;
+  /* top: 240px; */
+  bottom: 85px;
+}
+#btn6{
+  position: relative;
+  left: 10px;
+  /* top: 240px; */
+  bottom: 110px;
+}
+#btn7{
+  position: relative;
+  left: -70px;
+  /* top: 240px; */
+  bottom: 22px;
+}
+#cart {
+  font-size: 30px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 1399px;
+  top: -90px;
+  background-color: white;
+  /* border: 1px solid red; */
+  color: black;
+  border-radius: 100%;}

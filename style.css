@@ -1,0 +1,1060 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-size: 0%;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  overflow-x: hidden;
+  margin-bottom: 2em;
+  background-color: #d9d9d9;
+}
+
+.minitiffin {
+  position: absolute;
+  height: 45px;
+  top: 4px;
+  left: 575px;
+  filter: invert();
+}
+
+.largetiffin {
+  position: absolute;
+  height: 45px;
+  top: 4px;
+  left: 755px;
+  filter: invert();
+}
+
+.sahitiffin {
+  position: absolute;
+  height: 45px;
+  top: 4px;
+  left: 938px;
+
+}
+
+.drink1 {
+  position: absolute;
+  height: 45px;
+  top: 4px;
+  left: 1070px;
+  filter: invert();
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  background-color: #333;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav li a {
+  display: block;
+  padding: 20px;
+  padding-right: 35px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #555;
+  color: aqua;
+  border-bottom: 2px solid aqua;
+}
+
+.uncle1 {
+  position: absolute;
+  height: 160px;
+  top: 0px;
+  left: 155px;
+}
+
+
+.tastymenu {
+  position: absolute;
+  top: 110px;
+  left: 190px;
+  font-size: 20px;
+}
+
+.largehead {
+  position: absolute;
+  left: 45px;
+  top: 160px;
+  border: 2px solid black;
+  width: 500px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+/* CART STYLE STARTS HERE */
+.cart {
+  position: relative;
+  left: 95%;
+  top: -45px;
+  height: 45px;
+  filter: invert();
+}
+
+#cart {
+font-size: 30px;
+text-align: center;
+width: 30px;
+height: 30px;
+  position: relative;
+  left: 1460px;
+  top: -127px;
+  background-color: white;
+/* border: 1px solid red; */
+  color: black;
+  border-radius: 100%;
+}
+
+
+
+/* TIFFIN MENU STYLE STARTS HERE */
+.cont {
+  display: flex;
+  position: absolute;
+  top: 260px;
+  margin-bottom: 60px;
+
+}
+
+.cont1 {
+  display: flex;
+  position: absolute;
+  top: 730px;
+  margin-bottom: 60px;
+
+}
+
+/* MONDAY FOOD STYLE */
+.mondayheading {
+  margin-top: -60px;
+  position: relative;
+  left: 60px;
+  top: 35px;
+  height: 5px;
+  text-align: center;
+}
+
+.mondayfood {
+  background-color: #d9d9d9;
+  border: 2px solid;
+  height: 420px;
+  width: 140px;
+  position: relative;
+  left: -40px;
+  top: 20px;
+  border-radius: 40px;
+}
+
+
+.mbreakfastimg {
+  position: relative;
+  height: 90px;
+  top: 10px;
+  left: 25px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.mbreakfastimg:hover{
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.mbreakfasttxt {
+  position: relative;
+  top: -10px;
+  left: 0px;
+  text-align: center;
+}
+
+.mlunchimg {
+  position: relative;
+  height: 80px;
+  top: -25px;
+  left: 28px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.mlunchimg:hover{
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.mlunchtxt {
+  position: relative;
+  top: -49px;
+  left: 0px;
+  text-align: center;
+}
+
+.mdinnerimg {
+  position: relative;
+  height: 80px;
+  width: 95px;
+  position: relative;
+  top: -65px;
+  left: 22px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.mdinnerimg:hover{
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.mdinnertxt {
+  position: relative;
+  top: -90px;
+  left: 0px;
+  text-align: center;
+}
+
+
+.m-button-heading{
+  position: absolute;
+  top: 426px;
+  left: 26px;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+
+
+/* TUESDAY FOOD SECTION STYLE */
+.tuesdayheading {
+  margin-top: -60px;
+  position: relative;
+  left: 45px;
+  top: 35px;
+  height: 5px;
+  text-align: center;
+}
+
+.tuesdayfood {
+  background-color: #d9d9d9;
+  border: 2px solid;
+  height: 420px;
+  width: 140px;
+  position: relative;
+  left: -60px;
+  top: 20px;
+  border-radius: 40px;
+}
+
+.tbreakfastimg {
+  position: relative;
+  height: 90px;
+  width: 100px;
+  top: 10px;
+  left: 20px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.tbreakfastimg:hover{
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.tbreakfasttxt {
+  position: relative;
+  top: -10px;
+  left: 0px;
+  text-align: center;
+}
+
+.tlunchimg {
+  position: relative;
+  height: 80px;
+  width: 90px;
+  top: -25px;
+  left: 25px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.tlunchimg:hover{
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+
+.tlunchtxt {
+  position: relative;
+  top: -49px;
+  left: 0px;
+  text-align: center;
+}
+
+.tdinnerimg {
+  position: relative;
+  height: 90px;
+  width: 90px;
+  position: relative;
+  top: -60px;
+  left: 25px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.tdinnerimg:hover{
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.tdinnertxt {
+  position: relative;
+  top: -85px;
+  left: 0px;
+  text-align: center;
+}
+
+
+/* WEDNESDAY FOOD SECTION STYLE */
+.wednesdayheading {
+  margin-top: -60px;
+  position: relative;
+  left: 10px;
+  top: 35px;
+  height: 5px;
+  text-align: center;
+}
+
+.wednesdayfood {
+  background-color: #d9d9d9;
+  border: 2px solid;
+  height: 420px;
+  width: 140px;
+  position: relative;
+  left: -110px;
+  top: 20px;
+  border-radius: 40px;
+}
+
+.wbreakfastimg {
+  position: relative;
+  height: 90px;
+  width: 110px;
+  top: 10px;
+  left: 15px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.wbreakfastimg:hover{
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.wbreakfasttxt {
+  position: relative;
+  top: -10px;
+  left: 0px;
+  text-align: center;
+}
+
+.wlunchimg {
+  position: relative;
+  height: 90px;
+  width: 90px;
+  top: -25px;
+  left: 25px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.wlunchimg:hover{
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.wlunchtxt {
+  position: relative;
+  top: -52px;
+  left: 0px;
+  text-align: center;
+}
+
+.wdinnerimg {
+  position: relative;
+  height: 85px;
+  width: 95px;
+  position: relative;
+  top: -70px;
+  left: 23px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.wdinnerimg:hover{
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.wdinnertxt {
+  position: relative;
+  top: -94px;
+  left: 0px;
+  text-align: center;
+}
+
+/* THURSDAY FOOD SECTION STYLE */
+.thursdayheading {
+  margin-top: -60px;
+  position: relative;
+  left: 75px;
+  top: 95px;
+  height: 5px;
+  text-align: center;
+}
+
+.thursdayfood {
+  background-color: #d9d9d9;
+  border: 2px solid;
+  height: 420px;
+  width: 140px;
+  position: relative;
+  left: -40px;
+  top: 80px;
+  border-radius: 40px;
+}
+
+/* FRIDAY FOOD SECTION STYLE */
+.fridayheading {
+  margin-top: -60px;
+  position: relative;
+  left: 36px;
+  top: 95px;
+  height: 5px;
+  text-align: center;
+}
+
+.fridayfood {
+  background-color: #d9d9d9;
+  border: 2px solid;
+  height: 420px;
+  width: 140px;
+  position: relative;
+  left: -65px;
+  top: 80px;
+  border-radius: 40px;
+}
+
+/* SATURDAY FOOD SECTION STYLE */
+.saturdayheading {
+  margin-top: -60px;
+  position: relative;
+  left: 5px;
+  top: 95px;
+  height: 5px;
+  text-align: center;
+}
+
+.saturdayfood {
+  background-color: #d9d9d9;
+  border: 2px solid;
+  height: 420px;
+  width: 140px;
+  position: relative;
+  left: -115px;
+  top: 80px;
+  border-radius: 40px;
+}
+
+/* SUNDAY FOOD SECTION STYLE */
+.sundayheading {
+  position: absolute;
+  left: 265px;
+  top: 1310px;
+  height: 5px;
+  text-align: center;
+}
+
+.sundayfood {
+  background-color: #d9d9d9;
+  border: 2px solid;
+  display: flex;
+  height: 140px;
+  width: 480px;
+  position: absolute;
+  left: 60px;
+  top: 1350px;
+  border-radius: 40px;
+}
+
+.sbreakfastimg {
+  position: relative;
+  height: 90px;
+  width: 110px;
+  top: 10px;
+  left: 15px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+/* .sbreakfastimg:hover{
+  transform: scale(1.2);
+  z-index: 1;
+} */
+
+.sbreakfasttxt {
+  position: relative;
+  top: -10px;
+  left: 15px;
+  text-align: center;
+}
+
+.slunchimg {
+  position: relative;
+  height: 90px;
+  width: 100px;
+  top: 10px;
+  left: 60px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+/* .slunchimg:hover{
+  transform: scale(1.2);
+  z-index: 1;
+} */
+
+.slunchtxt {
+  position: relative;
+  top: -10px;
+  left: 35px;
+  text-align: center;
+}
+
+.sdinnerimg {
+  position: relative;
+  height: 85px;
+  width: 95px;
+  position: relative;
+  top: 10px;
+  left: 80px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+/* .sdinnerimg:hover{
+  transform: scale(1.2);
+  z-index: 1;
+} */
+
+.sdinnertxt {
+  position: relative;
+  top: -10px;
+  left: 50px;
+  text-align: center;
+}
+
+
+.s-button-heading{
+  position: absolute;
+  top: 150px;
+  left: 175px;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+#soya {
+  position: relative;
+  height: 80px;
+  width: 90px;
+  top: -60px;
+  left: 25px;
+}
+
+#soyatxt {
+  position: relative;
+  top: -75px;
+}
+
+/* CAROUSAL STYLE STARTS HERE */
+#carousel {
+  width: 1000px;
+  position: absolute;
+  top: 200px;
+  left: 630px;
+  margin-bottom: 50px;
+}
+#carousel1 {
+  width: 1000px;
+  position: absolute;
+  top: 550px;
+  left: 630px;
+  margin-bottom: 50px;
+}
+#carousel2 {
+  width: 1000px;
+  position: absolute;
+  top: 900px;
+  left: 630px;
+  margin-bottom: 50px;
+}
+.item {
+  height: 252px;
+  width: 190px;
+  padding-left: 50px;
+  align-items: center;
+  position: relative;
+  top: -150px;
+  margin-right: -20px;
+  transition: 0.4s;
+}
+
+/* .item:hover{
+  transform: scale(1.12);
+  z-index: 3.5;
+  
+} */
+
+.itemtxt {
+  position: relative;
+  left: 35px;
+  top: 315px;
+}
+
+.teaheading {
+  background-color: #dfdfdf;
+  font-size: 20px;
+  position: absolute;
+  top: 130px;
+  left: 1010px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+.coldheading {
+  background-color: #dfdfdf;
+  font-size: 20px;
+  position: absolute;
+  top: 480px;
+  left: 1010px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+.coffeeheading {
+  background-color: #dfdfdf;
+  font-size: 20px;
+  position: absolute;
+  top: 820px;
+  left: 1010px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 50px;
+  border: 0.2px solid black;
+  position: relative;
+  left: 40px;
+  top: 240px;
+  width: 120px;
+  height: 30px;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 6px 6px 12px #c5c5c5,
+  -6px -6px -12px #ffffff;
+}
+/* .btn::before{
+  content: '';
+  width: 0;
+  height: 3em;
+  border-radius: 28em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #0ffb5d 0%, #f9f047 100%);
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+}
+.btn:hover::before{
+  width: 9em;
+} */
+
+.btn:hover {
+  background-color: #dad8d8;
+}
+
+#drinkimg {
+  border-radius: 50%;
+  height: 160px;
+}
+
+#drinkimg1 {
+  border-radius: 50%;
+  height: 160px;
+
+}
+
+#drinkimg2 {
+  border-radius: 50%;
+  height: 160px;
+
+}
+
+#drinkimg3 {
+  border-radius: 50%;
+  height: 160px;
+}
+
+#drinkimg4 {
+  border-radius: 50%;
+  height: 160px;
+}
+
+#drinkimg5 {
+  border-radius: 50%;
+  height: 160px;
+}
+
+#drinkimg6 {
+  border-radius: 50%;
+  height: 160px;
+}
+
+#drinkimg7 {
+  border-radius: 50%;
+  height: 160px;
+}
+
+#drinkimg8 {
+  border-radius: 50%;
+  height: 160px;
+}
+
+#drinkimg9 {
+  border-radius: 50%;
+  height: 160px;
+}
+
+#drinkimg01 {
+  border-radius: 50%;
+  height: 160px;
+}
+
+#drinkimg02 {
+  border-radius: 50%;
+  height: 160px;
+}
+
+#drinkimg03 {
+  border-radius: 50%;
+  height: 160px;
+}
+
+#drinkimg04 {
+  border-radius: 50%;
+  height: 160px;
+}
+
+#drinkimg05 {
+  border-radius: 50%;
+  height: 160px;
+}
+
+#drinkimg06 {
+  border-radius: 50%;
+  height: 160px;
+}
+
+#drinkimg07 {
+  border-radius: 50%;
+  height: 160px;
+}
+
+.morebtn {
+  background-color: #c7c7c7;
+  position: absolute;
+  top: 1200px;
+  left: 980px;
+  width: 270px;
+  font-size: 15px;
+  text-align: left;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.morebtn :hover {
+  color: #555;
+}
+
+.morebtn a {
+  text-decoration: none;
+  color: black;
+}
+
+.morelogo {
+  position: absolute;
+  top: 1180px;
+  left: 1140px;
+  height: 100px;
+}
+#place{
+  border: 1px solid red;
+  width: 300px;
+  height: 20px;
+ position: relative;top: 200px;
+}
+/* CART STYLE STARTS HERE */
+#orderlist {
+  display:none;
+  position: relative;
+  left: 40px;
+}
+.pan{
+  z-index: 1;
+  background-color: rgb(245, 236, 236);
+  border: 2px solid rgb(11, 9, 9);
+  height: 400px; width: 300px;
+  position: relative;
+  left: 580px;
+  bottom: 123px;
+  
+animation: togle 1s linear ;
+}
+
+@keyframes togle {
+ from{
+  opacity: 0;
+ } 
+ to{
+  opacity: 1;
+ }
+}
+
+/* FOOTER STYLE STARTS HERE */
+footer {
+  position: absolute;
+  top: 1600px;
+  margin-top: 100px;
+  background-color: #363d45;
+  padding: 4px 20px;
+  color: white;
+  font-weight: 100;
+  font-family: Arial, sans-serif;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  border-bottom: 0.5px solid grey;
+}
+
+.footer-section {
+  margin-bottom: 40px;
+}
+
+.footer-section h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: white;
+  border-bottom: 2px solid #9e9f9ff6;
+  padding-bottom: 5px;
+}
+
+.footer-section p {
+  margin-bottom: 10px;
+  color: #919191;
+}
+
+.social-media-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-media-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-media-links a {
+  color: #868686;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.social-media-links a:hover {
+  color: #e74c3c;
+}
+
+.customer-reviews {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.customer-reviews li {
+  margin-bottom: 10px;
+  color: #a89f9f;
+  font-style: italic;
+}
+
+.newsletter-form {
+  display: flex;
+  margin-top: 10px;
+}
+
+.newsletter-form input[type="email"] {
+  width: 70%;
+  padding: 5px;
+  border: 1px solid #7e0c0c;
+}
+
+.newsletter-form button {
+  width: 30%;
+  padding: 5px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.newsletter-form button:hover {
+  background-color: #541b15;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #afafaf;
+}
+.rupee{
+  position: relative;top: 256px;
+  left: 143px;
+}
+#panel{
+  position: relative;top: 100px;
+}
+li{
+  list-style: none;
+}
+#place{
+  background-color: #f20505;
+  color: white;
+position: relative;right: 41px;
+box-shadow: 2px 2px 3px 4px black;
+text-align: center;
+font-size: 20px;
+}
+
+#mbutton{
+  cursor: pointer;
+  position: absolute;
+  top: 442px;
+  left: 17px;
+  background-color: #9c9c9c;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(252, 237, 237);
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 15px;
+}
+#tbutton{
+  cursor: pointer;
+  position: absolute;
+  top: 442px;
+  left: 17px;
+  background-color: #9c9c9c;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(252, 237, 237);
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 15px;
+}
+#wbutton{
+  cursor: pointer;
+  position: absolute;
+  top: 442px;
+  left: 17px;
+  background-color: #9c9c9c;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(252, 237, 237);
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 15px;
+}
+#thbutton{
+  cursor: pointer;
+  position: absolute;
+  top: 442px;
+  left: 17px;
+  background-color: #9c9c9c;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(252, 237, 237);
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 15px;
+}
+#fbutton{
+  cursor: pointer;
+  position: absolute;
+  top: 442px;
+  left: 17px;
+  background-color: #9c9c9c;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(252, 237, 237);
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 15px;
+}
+#sabutton{
+  cursor: pointer;
+  position: absolute;
+  top: 442px;
+  left: 17px;
+  background-color: #9c9c9c;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(252, 237, 237);
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 15px;
+}
+#subutton{
+  cursor: pointer;
+  position: absolute;
+  top: 168px;
+  left: 160px;
+  background-color: #9c9c9c;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(252, 237, 237);
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 15px;
+}
+.m-button-heading{
+  display: none;
+}
